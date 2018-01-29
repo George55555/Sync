@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = sync-qt
-VERSION = 1.1.0.0
+VERSION = 1.1.1.0
 INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
 CONFIG += no_include_pwd
@@ -28,13 +28,13 @@ win32 {
   #  MINIUPNPC_INCLUDE_PATH=C:/deps/
   #  MINIUPNPC_LIB_PATH=C:/deps/miniupnpc
   
-  BOOST_LIB_SUFFIX=-mgw48-mt-sd-1_55
-BOOST_INCLUDE_PATH=C:/deps2/boost_1_55_0
-BOOST_LIB_PATH=C:/deps2/boost_1_55_0/stage/lib
-BDB_INCLUDE_PATH=C:/deps2/db-4.8.30.NC/build_unix
-BDB_LIB_PATH=C:/deps2/db-4.8.30.NC/build_unix
-OPENSSL_INCLUDE_PATH=C:/deps2/openssl-1.0.1g/include
-OPENSSL_LIB_PATH=C:/deps2/openssl-1.0.1g
+BOOST_LIB_SUFFIX=-mt
+BOOST_INCLUDE_PATH=${MXE_INCLUDE_PATH}/boost
+BOOST_LIB_PATH=${MXE_LIB_PATH}
+BDB_INCLUDE_PATH="/mnt/db-5.3.28/build_mxe"
+BDB_LIB_PATH="/mnt/db-5.3.28/build_mxe"
+OPENSSL_INCLUDE_PATH=${MXE_INCLUDE_PATH}/openssl
+OPENSSL_LIB_PATH=${MXE_LIB_PATH}
   
 }
 

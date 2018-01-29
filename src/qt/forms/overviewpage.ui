@@ -265,7 +265,7 @@
         <string/>
        </property>
        <property name="textFormat">
-        <enum>Qt::LogText</enum>
+        <enum>Qt::PlainText</enum>
        </property>
        <property name="pixmap">
         <pixmap resource="../bitcoin.qrc">:/icons/drmbg</pixmap>
