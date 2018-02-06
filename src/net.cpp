@@ -1139,6 +1139,8 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
+	{"sync.seeds.pareto.network", "sync.seeds.pareto.network"},
+	{"syncnodes.smokeinfusion.com", "syncnodes.smokeinfusion.com"},
 	{"162.212.156.17", "162.212.156.17"},
 	{"104.51.124.217", "104.51.124.217"},
 	{"195.154.163.121", "195.154.163.121"},
